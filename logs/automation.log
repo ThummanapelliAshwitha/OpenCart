@@ -1,0 +1,117 @@
+17:21:13.544 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+17:21:13.661 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+17:21:13.982 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+17:21:13.984 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+17:21:15.153 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+17:21:15.202 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:58)oggger - *****finish of Registration
+17:27:15.328 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+17:27:15.442 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+17:27:15.761 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+17:27:15.764 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+17:27:16.960 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+17:27:17.026 [main] ERROR testCases.TC001_Registration.test_Register(TC001_Registration.java:54)oggger - Test fail
+17:27:17.026 [main] DEBUG testCases.TC001_Registration.test_Register(TC001_Registration.java:55)oggger - Debug logs.....
+18:39:54.531 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+18:39:54.625 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+18:39:54.959 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+18:39:54.961 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+18:39:56.076 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+18:39:56.127 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:65)oggger - *****finish of Registration
+19:13:50.874 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+19:13:50.964 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+19:13:51.251 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+19:13:51.256 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+19:13:52.396 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+19:13:52.451 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:65)oggger - *****finish of Registration
+19:14:41.480 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+19:14:41.593 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+19:14:41.915 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+19:14:41.919 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+19:14:43.168 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+19:14:43.229 [main] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:65)oggger - *****finish of Registration
+19:30:27.254 [TestNG-tests-1] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+19:30:27.256 [TestNG-tests-2] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+19:30:27.755 [TestNG-tests-1] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+19:30:27.849 [TestNG-tests-2] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+19:30:29.222 [TestNG-tests-1] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+19:30:29.228 [TestNG-tests-1] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+19:30:29.268 [TestNG-tests-3] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:24)oggger - ****starting of Registration********
+19:30:29.439 [TestNG-tests-2] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+19:30:29.440 [TestNG-tests-2] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+19:30:29.633 [TestNG-tests-3] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:28)oggger - clicked on account
+19:30:30.180 [TestNG-tests-3] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:31)oggger - clicked on register
+19:30:30.182 [TestNG-tests-3] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:36)oggger - providing user information
+19:30:31.644 [TestNG-tests-1] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+19:30:31.653 [TestNG-tests-2] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+19:30:31.697 [TestNG-tests-3] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:47)oggger - validating expected message
+19:30:31.707 [TestNG-tests-1] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:65)oggger - *****finish of Registration
+19:30:31.710 [TestNG-tests-2] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:65)oggger - *****finish of Registration
+19:30:31.730 [TestNG-tests-3] INFO  testCases.TC001_Registration.test_Register(TC001_Registration.java:65)oggger - *****finish of Registration
+12:10:47.587 [main] INFO  testCases.TC002_Login.verify_account(TC002_Login.java:15)oggger - ****starting of login*********
+12:10:48.763 [main] INFO  testCases.TC002_Login.verify_account(TC002_Login.java:35)oggger - *******finish of login*******
+12:23:07.085 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Rohith\eclipse-workspace\OpenCart\master.xml
+
+12:23:11.317 [main] INFO  testCases.TC002_Login.verify_account(TC002_Login.java:15)oggger - ****starting of login*********
+12:23:12.470 [main] INFO  testCases.TC002_Login.verify_account(TC002_Login.java:35)oggger - *******finish of login*******
+17:41:57.896 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Rohith\eclipse-workspace\OpenCart\master.xml
+
+17:42:05.241 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:42:06.875 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:42:06.884 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:42:17.453 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:42:17.461 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:42:29.973 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:42:29.973 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:42:41.148 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:42:41.163 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:53:16.403 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Rohith\eclipse-workspace\OpenCart\master.xml
+
+17:53:21.632 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:53:23.323 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:53:23.327 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:53:34.019 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:53:34.019 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:53:44.735 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:53:44.740 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:53:55.980 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+17:53:55.996 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+17:53:57.753 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:03:54.775 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Rohith\eclipse-workspace\OpenCart\master.xml
+
+18:03:59.904 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:04:01.681 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:04:01.687 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:04:03.281 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:04:14.409 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:04:14.409 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:04:25.887 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:04:25.902 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:04:27.511 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:08:50.460 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Rohith\eclipse-workspace\OpenCart\master.xml
+
+18:08:55.208 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:08:56.781 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:08:56.787 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:08:58.236 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:09:08.979 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:09:08.984 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:09:19.835 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+18:09:19.835 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+18:09:21.481 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+19:55:40.698 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\Rohith\eclipse-workspace\OpenCart\master.xml
+
+19:55:52.157 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+19:55:53.948 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+19:55:53.960 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+19:55:55.924 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+19:56:06.980 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+19:56:06.993 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+19:56:18.100 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
+19:56:18.106 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:16)oggger - ****starting TC003_Login DDT*********
+19:56:19.847 [main] INFO  testCases.TC003_LoginDDT.verify_account(TC003_LoginDDT.java:58)oggger - ****finish TC003_Login DDT*********
