@@ -10,7 +10,8 @@
     <classes>
      
        <!--<class name="testCases.TC003_LoginDDT"/>-->
-       <class name="testCases.TC004_RegistrationDDT"/>
+       <!--<<class name="testCases.TC004_RegistrationDDT"/>-->
+       <class name="testCases.TC006_SearchDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

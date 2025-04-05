@@ -42,6 +42,7 @@ public void test_Register(String firstname,String lastname,String email,String T
 			if(mssg.equals("Your Account Has Been Created!")) {
 				
 				mcp.onClick_Logout();
+				Thread.sleep(5000);
 				Assert.assertTrue(true);
 				
 			}
@@ -56,6 +57,7 @@ public void test_Register(String firstname,String lastname,String email,String T
 			if(mssg.equals("Your Account Has Been Created!")) {
 				
 				mcp.onClick_Logout();
+				Thread.sleep(5000);
 				Assert.assertTrue(false);
 				
 			}
