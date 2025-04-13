@@ -31,9 +31,7 @@ public void verify_search(String item,String Exp) {
 				if(list.getText().toLowerCase().contains(item.toLowerCase())) {
 					list.click();
 					Thread.sleep(5000);
-					found=true;
-					
-					break;
+					 found=true;
 				}
 				
 				if(found==true) {
