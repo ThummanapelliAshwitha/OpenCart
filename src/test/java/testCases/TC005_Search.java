@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
+import pageObjects.SearchPage;
 import testBase.BaseClass;
 
 public class TC005_Search extends BaseClass{
@@ -21,8 +22,8 @@ public class TC005_Search extends BaseClass{
 		hp.search_box(item);
 		hp.click_search();
 		Thread.sleep(500);
-		
-   List<WebElement>li=driver.findElements(By.xpath("//div[contains(@class,'product-layout')]//div[@class='product-thumb']"));
+		 SearchPage sp=new SearchPage(driver);
+  /* List<WebElement>li=driver.findElements(By.xpath("//div[contains(@class,'product-layout')]//div[@class='product-thumb']"));
    if(li.size()>0) {
 	  
 	   logger.info("Product found");
@@ -33,13 +34,18 @@ public class TC005_Search extends BaseClass{
 	   logger.warn("no result found");
 	   Assert.assertTrue(false);
    }
-   
+   */
+		boolean product_clicked= sp.clickOnProductFromResults(p.getProperty("item"));
+		logger.info("product clicked");
+		Assert.assertTrue(product_clicked);
+		
 	}
 		
 		catch(Exception e) {
 			logger.error("Exception occurred during search test: " + e.getMessage());
 			Assert.fail();
 		}
+		logger.info("finish of search");
 }
 }
 

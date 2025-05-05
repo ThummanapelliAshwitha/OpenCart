@@ -9,9 +9,10 @@
   <parameter name="browser" value="chrome"/>
     <classes>
      
-       <!--<class name="testCases.TC003_LoginDDT"/>-->
+     <!--  <class name="testCases.TC003_LoginDDT"/>-->
        <!--<<class name="testCases.TC004_RegistrationDDT"/>-->
-       <class name="testCases.TC006_SearchDDT"/>
+      <!--<class name="testCases.TC008_AdvanceSearchDDT"/>-->
+      <class name="testCases.TC0010_AddProductDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

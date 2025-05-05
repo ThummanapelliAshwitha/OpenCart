@@ -28,7 +28,8 @@ public class BaseClass {
 	public static WebDriver driver;
 	public Logger logger;//log4j
 	public Properties p;//properties
-    @BeforeClass(groups= {"Regression","Sanity","master","Data Driven Testing"})
+   
+	@BeforeClass(groups= {"Regression","Sanity","master","Data Driven Testing"})
     @Parameters({"os","browser"})
 	public void setUp(String os,String br) throws IOException {
     	

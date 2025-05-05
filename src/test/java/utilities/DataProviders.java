@@ -73,6 +73,46 @@ public class DataProviders {
  }
  
    //Data Provider 4
+ @DataProvider(name="AdvanceSearchData")
+ public String[][] getData3() throws IOException {
+     String path =".\\testdata\\OpenCart_AdvanceSearch.xlsx";//taking xl file from testData
+     ExcelUtility xlutil=new ExcelUtility(path); // Creating an object for xlutility
+
+     int totalrows = xlutil.getRowCount("Sheet1");
+     int totalcols = xlutil.getCellCount("Sheet1",1);
+
+    String Advancesearchdata[][] = new String[totalrows][totalcols]; // created for two dimension array which can store row and col just like xl format
+
+     for (int i = 1; i <=totalrows; i++) { //1 // read the data from xl storing in two dimensional array
+         for (int j = 0; j < totalcols; j++) {//0   //i is rows j is col
+             Advancesearchdata[i - 1][j] = xlutil.getCellData("Sheet1",i, j);//1,0
+         }
+     }
+
+
+     return Advancesearchdata;//returning two dimension array
+ }
+ //Data Provider 5
+ @DataProvider(name="AddProductData")
+ public String[][] getData4() throws IOException {
+     String path =".\\testdata\\OpenCart_AddProduct.xlsx";//taking xl file from testData
+     ExcelUtility xlutil=new ExcelUtility(path); // Creating an object for xlutility
+
+     int totalrows = xlutil.getRowCount("Sheet1");
+     int totalcols = xlutil.getCellCount("Sheet1",1);
+
+    String addproductdata[][] = new String[totalrows][totalcols]; // created for two dimension array which can store row and col just like xl format
+
+     for (int i = 1; i <=totalrows; i++) { //1 // read the data from xl storing in two dimensional array
+         for (int j = 0; j < totalcols; j++) {//0   //i is rows j is col
+             addproductdata[i - 1][j] = xlutil.getCellData("Sheet1",i, j);//1,0
+         }
+     }
+
+
+     return addproductdata;//returning two dimension array
+ }
+ //Data Provider 6
 }
 
 

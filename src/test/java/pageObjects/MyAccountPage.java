@@ -11,6 +11,7 @@ public class MyAccountPage extends BasePage {
 		// TODO Auto-generated constructor stub
 	}
 	@FindBy(xpath="//h2[normalize-space()='My Account']") WebElement txt_myAccount;
+	@FindBy(xpath="//span[normalize-space()='My Account']") WebElement btn_fromAccount;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']") WebElement btn_logout;
 	public boolean ismyAccountExist() {
 		try {
@@ -21,6 +22,9 @@ public class MyAccountPage extends BasePage {
 		}
 	}
 	
+	public void onClick_Account() {
+		btn_fromAccount.click();
+	}
 	public void onClick_Logout() {
 		btn_logout.click();
 	}

@@ -14,7 +14,8 @@ import testBase.BaseClass;
 public class TC007_AdvanceSearch extends BaseClass{
 	@Test
    public void verify_advanceSearch() throws InterruptedException {
-		//these is advance search result page is display then we click on product
+		//these is advance search result page is display then we click on search
+		logger.info("Starting of advance search");
 		try {
 	   HomePage hp=new HomePage(driver);
 	   String item=p.getProperty("item");
@@ -27,34 +28,18 @@ public class TC007_AdvanceSearch extends BaseClass{
 	   sp.isSubcatgory_selected();
 	   sp.isProductDes_selected();
 	   sp.searchbtn_click();
-	   List<WebElement>li=driver.findElements(By.xpath("//div[contains(@class,'product-layout')]//div[@class='product-thumb']"));
-	   boolean found=false;
-	   if(li.size()>0) {
-	   for(WebElement list:li) {
-		  if(list.getText().toLowerCase().contains(item)) {
-			  list.click();
-			found=true;
-			  Thread.sleep(500);
-			  break;
-		  }	 
-		  }
-	   }
-	   
-		  if(found==true) {
-				
-				Thread.sleep(500);
-				Assert.assertTrue(true);
-			}
-			else {
-				Assert.assertTrue(false);
-			}
-	   
-	  
+	   //validation product clicked means pass otherwise fail
+	   boolean productClicked=sp.clickOnProductFromResults(p.getProperty("item"));
+	 logger.info("product clicked");
+	   Assert.assertTrue(productClicked);
 	   
 		}
 		catch(Exception e) {
 			Assert.fail();
+		}
+			logger.info("finish of advance search");
 		
-   }
+   
+		}
 }
-}
+
